@@ -1,0 +1,2 @@
+C:/My Files/code work/expense_tracker/android/app/.cxx/Debug/3l5340a2/x86/CMakeFiles/edit_cache.dir
+C:/My Files/code work/expense_tracker/android/app/.cxx/Debug/3l5340a2/x86/CMakeFiles/rebuild_cache.dir
