@@ -13,9 +13,12 @@ void main() {
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
+        //dark theme
         colorScheme: kDarkColorScheme,
-        cardTheme: const CardTheme().copyWith(
+        cardTheme: const CardThemeData().copyWith(
+          //CardTheme => CardThemeData
           color: kDarkColorScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         ),
@@ -25,11 +28,13 @@ void main() {
                 foregroundColor: kDarkColorScheme.onPrimaryContainer)),
       ),
       theme: ThemeData().copyWith(
+          //light theme
           colorScheme: kColorScheme,
           appBarTheme: const AppBarTheme().copyWith(
               backgroundColor: kColorScheme.onPrimaryContainer,
               foregroundColor: kColorScheme.primaryContainer),
-          cardTheme: const CardTheme().copyWith(
+          cardTheme: const CardThemeData().copyWith(
+            //CardTheme => CardThemeData
             color: kColorScheme.secondaryContainer,
             margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           ),

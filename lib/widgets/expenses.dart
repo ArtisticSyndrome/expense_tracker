@@ -45,9 +45,15 @@ class _ExpensesState extends State<Expenses> {
     setState(() {
       _registeredExpenses.add(expense);
     });
-    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-      duration: Duration(seconds: 3),
-      content: Text('Expense Added!'),
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      duration: const Duration(seconds: 3),
+      content: const Text('Expense Added!'),
+      behavior: SnackBarBehavior
+          .floating, // makes it float instead of stick to bottom
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
     ));
   }
 
@@ -60,6 +66,12 @@ class _ExpensesState extends State<Expenses> {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         duration: const Duration(seconds: 3),
         content: const Text('Expense deleted.'),
+        behavior: SnackBarBehavior
+            .floating, // makes it float instead of stick to bottom
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        ),
         action: SnackBarAction(
             label: 'Undo',
             onPressed: () {
