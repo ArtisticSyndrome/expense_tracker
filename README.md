@@ -54,12 +54,12 @@ flutter run
 </p>
 
 ## Custom App Icon 🎨
--Icons are located in:
+**-** Icons are located in:
  ```bash
  lib/app_icon/5501371.png
  lib/app_icon/1.png
 ```
--Regenerate icons after changes
+**-** Regenerate icons after changes
 ```bash
 flutter pub run flutter_launcher_icons
 ```
@@ -73,18 +73,18 @@ flutter pub run flutter_launcher_icons
 
 ## 🤝 Contributing
 
--Fork the repository
--Create your feature branch:
+1. Fork the repository
+2. Create your feature branch:
 ```bash
 git checkout -b feature/AmazingFeature
 ```
--Commit your changes:
+3. Commit your changes:
 ```bash
 git commit -m 'Add some AmazingFeature'
 ```
--Push to the branch:
+4. Push to the branch:
 ```bash
 git push origin feature/AmazingFeature
 ```
--Open a Pull Request!
+5. Open a Pull Request!
 
