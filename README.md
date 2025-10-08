@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="lib/app_icon/no background.png" width="200" alt="Expense Tracker Logo">
+  <img src="lib/app_icon/5501371.png" width="200" alt="Expense Tracker Logo">
 </p>
 
 <h1 align="center">Expense Tracker</h1>
