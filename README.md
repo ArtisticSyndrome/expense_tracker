@@ -66,10 +66,11 @@ flutter pub run flutter_launcher_icons
 
 ## Environment Setup ⚙️
 
--**Flutter** (Latest Stable Version)
--**Dart SDK** ^3.5.3
--**Android Studio or VS Code**
--**Enable immersive mode for full-screen experience**
+1. **Flutter** (Latest Stable Version)
+2. **Dart SDK** ^3.5.3
+3. **Android Studio or VS Code**
+4. **Enable immersive mode for full-screen experience**
+
 
 ## 🤝 Contributing
 
